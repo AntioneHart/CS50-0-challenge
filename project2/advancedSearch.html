@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Search</title>
+    </head>
+    <body>
+        <div class="navList">
+            <ul>
+                <li><a href="main.html">Google Search</a></li>
+                <li><a href="second.html">Image Search</a></li>
+            </ul>
+        </div>
+        <div id="advancedTitle">
+            <h2 style = "color:red;font-size:46px;">Advanced Search</h2>
+        </div>
+        <div id="advancedContainer">
+            <div class="advancedMain">
+                <form action="https:google.com/search?as_q=" id="advancedSearch" method="GET" name="f">
+                <h2>Find Pages With...</h2>
+                    <div class="inputSection"></div>
+                    <div class="inputReq">
+                        <label>all these words:</label>
+                        <div class="inputSection">
+                            <input class="inputSection" value autofocus="autofocus" name="as_q" type="text">
+                        </div>
+                    </div>
+                    <div class="inputReq">
+                        <label>this exact word or phrase:</label>
+                        <div class="inputSection">
+                            <input class="inputSection" value autofocus="autofocus" name="as_epq" type="text">
+                        </div>
+                    </div>
+                    <div class="inputReq">
+                        <label>any of these words:</label>
+                        <div class="inputSection">
+                            <input class="inputSection" value autofocus="autofocus" name="as_oq" type="text">
+                        </div>
+                    </div>
+                    <div class="inputReq">
+                        <label>none of these words:</label>
+                        <div class="inputSection">
+                            <input class="inputSection" value autofocus="autofocus" name="as_eq" vtype="text">
+                        </div>
+                    </div>
+                    <input id="advanceSubmit" type="submit" value="Advanced Search">
+                </form>
+            </div>
+
+
+        </div>
+    </body>
+</html>
